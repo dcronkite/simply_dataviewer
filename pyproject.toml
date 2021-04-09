@@ -1,0 +1,19 @@
+[build-system]
+requires = ['flit_core >=2,<4']
+build-backend = 'flit_core.buildapi'
+
+[tool.flit.metadata]
+module = 'simple_dataviewer'
+author = 'dcronkite'
+author-email = 'dcronkite+pypi@gmail.com'
+home-page = 'https://github.com/dcronkite/simple_dataviewer'
+requires = []
+requires-python = '>=3.8'
+description-file = 'README.rst'
+classifiers = [
+    'License :: OSI Approved :: MIT License',
+    'Development Status :: 1 - Planning',
+    'Programming Language :: Python :: 3 :: Only',
+    'Programming Language :: Python :: 3.8',
+    'Intended Audience :: Science/Research',
+]
